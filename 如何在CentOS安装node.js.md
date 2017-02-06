@@ -1,4 +1,4 @@
-CentOs安装node.js
+CentOS安装node.js
 ---
 
 > 安装gcc

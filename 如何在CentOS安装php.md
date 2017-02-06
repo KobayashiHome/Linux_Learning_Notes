@@ -1,4 +1,4 @@
-CentOs安装php
+CentOS安装php
 ---
 
 ## 配置yum源

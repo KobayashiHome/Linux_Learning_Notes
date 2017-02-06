@@ -1,2 +1,3 @@
 # CentOS_Learning_Notes
-CentOs学习笔记
+
+> 记录自己在CentOS的填坑记录

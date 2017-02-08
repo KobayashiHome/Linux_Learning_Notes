@@ -33,3 +33,43 @@ systemctl start nginx
 >
 > 在浏览器地址栏中输入部署nginx环境的机器的IP
 
+---
+
+> 常用命令
+
+端口：80
+
+> 启动
+
+```
+start nginx
+```
+
+---
+
+> 关闭
+
+```
+nginx -s stop
+
+nginx -s quit
+```
+> nginx停止命令stop与quit参数的区别在于stop是快速停止nginx，可能并不保存相关信息，quit是完整有序的停止nginx，并保存相关信息。
+
+---
+
+> 重载nginx
+
+```
+nginx -s reload
+```
+> 当你改变了nginx配置信息并需要重新载入这些配置时可以使用此命令重载nginx
+
+---
+
+> 重新打开日志文件命令
+
+```
+nginx -s reopen
+
+```

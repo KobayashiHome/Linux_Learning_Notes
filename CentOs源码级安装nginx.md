@@ -46,6 +46,8 @@ make install
 
 > 通过上述安装我们发现配置为文件在/opt/nginx
 
+> 特别注意：configure --prefix 配置，后面的目录，不能是安装包当前的解压目录，因为后面再install过程中，会从解压包中拷贝配置文件到指定的prefix中去，如果这两个目录相同，cp失效出现 the same file 的错误，导致install 终止，安装会失败。
+
 ---
 
 > 启动

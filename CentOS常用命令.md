@@ -1,4 +1,4 @@
-> CenterOS常用命令
+> CenterOs常用命令
 
 ---
 ## 文件夹
@@ -27,3 +27,22 @@
   
   > sudo yum install git-core
 
+## 移动
+
+- 移动文件到某一文件
+
+```
+mv phpMyAdmin-4.6.0-all-languages /usr/local/nginx/html
+```
+
+## 重命名
+
+```
+mv phpMyAdmin-4.6.0-all-languages phpMyAdmin
+```
+
+## 解压tar.gz文件
+
+```
+tar -zxv -f xx.tar.gz
+```

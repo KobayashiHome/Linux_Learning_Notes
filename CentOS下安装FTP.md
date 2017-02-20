@@ -63,3 +63,10 @@ passwd monsterlin
 ```
 systemctl restart vsftpd.service
 ```
+
+
+---
+
+## 参考链接：
+
+> http://www.cnblogs.com/wolf-sun/p/6058501.html

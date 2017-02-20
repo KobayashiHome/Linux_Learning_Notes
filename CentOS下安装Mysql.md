@@ -8,6 +8,8 @@ CentOS安装Mysql
 
 ```
 yum -y install mysql-server
+
+yum install mysql mysql-server mysql-devel -y
 ```
 > 启动MySql服务
 

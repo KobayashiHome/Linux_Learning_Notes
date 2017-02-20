@@ -8,13 +8,25 @@ CentOS安装Mysql
 
 ```
 yum -y install mysql-server
-
-yum install mysql mysql-server mysql-devel -y
 ```
+
+
+> CentOS 7的yum源中貌似没有正常安装MySQL时的mysql-sever文件，需要去官网上下载
+
+```
+# wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
+# rpm -ivh mysql-community-release-el7-5.noarch.rpm
+# yum install mysql-community-server
+```
+
+---
 > 启动MySql服务
 
 ```
 service mysqld start
+
+`centos 7`  -> systemctl start  mysqld.service
+
 ```
 
 > 命令登录MySql

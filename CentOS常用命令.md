@@ -46,3 +46,21 @@ mv phpMyAdmin-4.6.0-all-languages phpMyAdmin
 ```
 tar -zxv -f xx.tar.gz
 ```
+
+## 查看与php有关的rpm包
+
+```
+rpm -qa | grep php
+```
+
+## 移除包
+
+```
+yum remove xxx
+```
+
+## yum强行解除锁定
+
+```
+rm -rf /var/run/yum.pid
+```

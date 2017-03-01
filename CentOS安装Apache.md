@@ -22,3 +22,16 @@ service httpd stop
 service httpd status
 ```
 
+---
+
+> web路径
+
+```
+/var/www/html/
+```
+
+> 配置文件路径
+
+```
+/etc/httpd/conf.d/welcome.conf
+```

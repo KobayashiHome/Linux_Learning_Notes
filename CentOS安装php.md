@@ -52,3 +52,10 @@ service httpd start 启动
 service httpd restart 重新启动
 service httpd stop 停止服务
 ```
+
+
+---
+
+## 参考
+
+[centos安装php](http://jingyan.baidu.com/article/fedf07374b392c35ac8977fc.html)

@@ -63,4 +63,17 @@ yum remove xxx
 
 ```
 rm -rf /var/run/yum.pid
+
 ```
+## 查看安装的软件
+
+```
+rpm -qa
+```
+
+## 过滤安装的软件
+
+```
+rpm -qa | grep "xxx"
+```
+> 相关链接：[CentOS下判断软件是否已安装](http://www.centoscn.com/CentOS/Intermediate/2015/0423/5248.html)

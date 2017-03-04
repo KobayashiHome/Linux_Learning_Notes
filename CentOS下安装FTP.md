@@ -61,7 +61,9 @@ passwd monsterlin
 > 重启vstpd
 
 ```
-systemctl restart vsftpd.service
+[centos >= 7.0] systemctl restart vsftpd.service
+
+[centos < 7.0]service vsftpd restart
 ```
 
 

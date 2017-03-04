@@ -77,3 +77,9 @@ rpm -qa
 rpm -qa | grep "xxx"
 ```
 > 相关链接：[CentOS下判断软件是否已安装](http://www.centoscn.com/CentOS/Intermediate/2015/0423/5248.html)
+
+## 设置软件开机自启
+
+```
+sudo chkconfig mysql on
+```

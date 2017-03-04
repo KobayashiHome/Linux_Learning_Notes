@@ -81,5 +81,5 @@ rpm -qa | grep "xxx"
 ## 设置软件开机自启
 
 ```
-sudo chkconfig mysql on
+sudo chkconfig xxx on
 ```

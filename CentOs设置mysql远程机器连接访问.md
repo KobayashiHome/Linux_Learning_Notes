@@ -33,3 +33,7 @@ mysql> select host,user from user;
 
 具体请访问：
 [centos防火墙配置](https://github.com/monsterLin/Linux_Learning_Notes/blob/master/CentOS%E9%85%8D%E7%BD%AE%E9%98%B2%E7%81%AB%E5%A2%99.md)
+
+> 附录
+
+https://my.oschina.net/u/1263127/blog/835446

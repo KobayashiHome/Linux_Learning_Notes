@@ -52,3 +52,7 @@
 
 #vi /usr/libexec/ibus-ui-gtk 
 ```
+
+---
+
+> [Linux更换python版本](http://www.cnblogs.com/zrz43/p/4895635.html)

@@ -1,4 +1,4 @@
-CentOs源码级安装nginx
+CentOS源码级安装nginx
 ---
 
 > 准备工具
